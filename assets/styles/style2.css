@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 60px;
+    
+}
+nav a{
+text-decoration: none;
+margin-right: 10pxpx;
+margin-top: 20px;
+padding: 10px;
+float: left;
+color: white;
+font-size: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    height: 55px;
+}
+body{
+    background-color: antiquewhite;
+}
+.home2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.boton{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    width: 85px;
+    border-radius: 20%;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+
+}
+#centro-imagen{
+    width: 800px;
+    height: 300px;
+    margin: 3px;
+    margin-left: 16rem;
+    padding: 3px;
+    border-radius: 25px;
+    width: 900px;
+    height: 400px;
+    border-radius: 10%;
+}
+.pindex{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 2px;
+}
+#imagen-dere{
+    width: 800px;
+    height: 300px;
+    margin: 3px;
+    margin-left: 5rem;
+    padding: 3px;
+    border-radius: 25px;
+
+    width: 900px;
+    height: 400px;
+    border-radius: 10%;
+}
+#abajo-izquierda{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    position: absolute;
+    height: 100px;
+    width: 310px;
+    font-size: 20px;
+    left: 10px;
+    bottom: -30%;
+    left: 53%;
+    transform: translate(-50%, -50%); 
+}
+/*css about */
+
+.abouttitle{
+    display: block;
+    margin: 8px;
+    padding: 3px;
+    text-align: center;
+}
+
+.contenedor1{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px;
+    float: left;
+    width: 350px;
+}
+.contenedor1:hover{
+    border: 1px solid;
+    transform: rotate(-3deg);
+}
+
+.gym-1{
+    width: 100%;
+    height: auto;
+}
+.contenedor2{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px;
+    float: left;
+    width: 350px;
+}
+
+.contenedor2:hover{
+    border: 1px solid;
+    transform: rotate(-3deg);
+}
+.gym-2{
+    width: 100%;
+    height: auto;
+}
+.contenedor3{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px;
+    float: left;
+    width: 350px;
+}
+.contenedor2:hover{
+    border: 1px solid;
+    transform: rotate(-3deg);
+}
+.gym-3{
+    width: 100%;
+    height: auto;
+}
+
+.abouttext{
+text-align: center;
+text-shadow: 2px 2px 5px;
+padding: 10px;
+}
+
+/* CSS CONTACT */
+
+.h1c{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.h2c{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.imacontac{
+    width: 800px;
+    height: 300px;
+    margin: 3px;
+    margin-left: 16rem;
+    padding: 3px;
+    border-radius: 25px;
+    width: 900px;
+    height: 400px;
+    border-radius: 10%;
+ 
+}
+.imagecontac{
+    width: 900px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.pcontact{
+    position: absolute;
+    width: 200px;
+    left: 30%;
+    bottom: 23%;
+    font-size: 20px;
+}
+.contactar{
+    width: 300px;
+    height: 50px;
+    position:absolute;
+    left: 60%;
+    bottom: 30%;
+}
+/* css Schedule*/
+
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.schedu{
+    text-align: center;
+    padding: 10px;
+}
+
+.schedu1{
+    text-align: center;
+}
+
+/* css benefits*/
+
+.tipstittle, .tipssubtitle{
+    padding: 10px;
+    text-align: center;
+}
+.cajati{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.pngti{
+    width: 100%;
+    height: auto;
+
+}
+.cajate{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.pngte{
+    width: 100%;
+    height: auto;
+}
