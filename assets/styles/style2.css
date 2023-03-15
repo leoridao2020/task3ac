@@ -113,7 +113,7 @@ body{
 }
 
 .contenedor1{
-    margin: 10px 20px;
+    margin: 10px 40px;
     box-shadow: 0 4px 8px;
     float: left;
     width: 350px;
@@ -128,7 +128,7 @@ body{
     height: auto;
 }
 .contenedor2{
-    margin: 10px 20px;
+    margin: 10px 80px;
     box-shadow: 0 4px 8px;
     float: left;
     width: 350px;
@@ -143,12 +143,12 @@ body{
     height: auto;
 }
 .contenedor3{
-    margin: 10px 20px;
+    margin: 10px 9px;
     box-shadow: 0 4px 8px;
     float: left;
     width: 350px;
 }
-.contenedor2:hover{
+.contenedor3:hover{
     border: 1px solid;
     transform: rotate(-3deg);
 }
@@ -275,4 +275,15 @@ td,th{
 .pngte{
     width: 100%;
     height: auto;
+}
+.perro{
+    padding: 10px;
+    margin: 7px;
+}
+.gato{
+    padding-left: 15px;
+}
+.cajate, .cajati{
+    margin-left: 10%;
+
 }
