@@ -5,34 +5,49 @@
 }
 header{
     background-color: black;
-    height: 60px;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
     
 }
 nav a{
-text-decoration: none;
-margin-right: 10pxpx;
-margin-top: 20px;
-padding: 10px;
-float: left;
-color: white;
-font-size: 20px;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
 }
 .logo{
     display: flex;
     justify-content: flex-end;
-    height: 55px;
+    height: 3.438rem;
 }
 body{
     background-color: antiquewhite;
+}
+.main{
+    min-height: 80vh;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
+.cajitahome{
+    width: 37.5rem;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+    margin: 2rem auto;
 }
 .home2{
     background-color: rgb(0, 0, 0);
     color: white;
     position: absolute;
-    height: 25px;
-    top: 10px;
-    left: 10px;
-    top: 30%;
+    height: 1.563rem;
+    top: 2rem;
+    left: 0.625rem;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -40,10 +55,10 @@ body{
     background-color: rgb(0, 0, 0);
     color: white;
     position: absolute;
-    height: 25px;
-    top: 10px;
-    left: 10px;
-    top: 20%;
+    height: 1.563rem;
+    top: 0.625rem;
+    left: 0.625rem;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -51,176 +66,128 @@ body{
     background-color: rgb(0, 0, 0);
     color: white;
     position: absolute;
-    width: 85px;
+    width: 5.313rem;
     border-radius: 20%;
-    height: 25px;
-    top: 10px;
-    left: 10px;
+    height: 1.563rem;
+    top: 0.625rem;
+    left: 0.625rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
+}
 
+.img1{
+    display:flex;
+    justify-content: center;
+    margin: 2rem;   
 }
-#centro-imagen{
-    width: 800px;
-    height: 300px;
-    margin: 3px;
-    margin-left: 16rem;
-    padding: 3px;
-    border-radius: 25px;
-    width: 900px;
-    height: 400px;
-    border-radius: 10%;
-}
-.pindex{
+.img2{
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    padding: 2px;
+    justify-content: center;
+    margin: 2rem;
 }
-#imagen-dere{
-    width: 800px;
-    height: 300px;
-    margin: 3px;
-    margin-left: 5rem;
-    padding: 3px;
-    border-radius: 25px;
-
-    width: 900px;
-    height: 400px;
-    border-radius: 10%;
+.cajita1{
+    background-color: aqua;
+    width: 37.5rem;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+    margin: 2rem auto;
+}
+#imagen-dere, #centro-imagen{
+    width: 43.75rem;
+    height: 30rem;
 }
 #abajo-izquierda{
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.37);
     color: white;
     position: absolute;
-    height: 100px;
-    width: 310px;
-    font-size: 20px;
-    left: 10px;
-    bottom: -30%;
-    left: 53%;
-    transform: translate(-50%, -50%); 
+    width: 30rem;
+    top: 0.625rem;
+    left: 0.625rem;
+    top: 40%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
 }
+
+
+
+
 /*css about */
 
-.abouttitle{
-    display: block;
-    margin: 8px;
-    padding: 3px;
-    text-align: center;
-}
 
-.contenedor1{
-    margin: 10px 40px;
-    box-shadow: 0 4px 8px;
-    float: left;
-    width: 350px;
+.a1, .a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
-.contenedor1:hover{
-    border: 1px solid;
-    transform: rotate(-3deg);
+.aboutsec{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-
-.gym-1{
-    width: 100%;
-    height: auto;
+.gym-1, .gym-2, .gym-3{
+    width: 15rem;
+    height: 20rem;
 }
-.contenedor2{
-    margin: 10px 80px;
-    box-shadow: 0 4px 8px;
-    float: left;
-    width: 350px;
-}
-
-.contenedor2:hover{
-    border: 1px solid;
-    transform: rotate(-3deg);
-}
-.gym-2{
-    width: 100%;
-    height: auto;
-}
-.contenedor3{
-    margin: 10px 9px;
-    box-shadow: 0 4px 8px;
-    float: left;
-    width: 350px;
-}
-.contenedor3:hover{
-    border: 1px solid;
-    transform: rotate(-3deg);
-}
-.gym-3{
-    width: 100%;
-    height: auto;
-}
-
 .abouttext{
-text-align: center;
-text-shadow: 2px 2px 5px;
-padding: 10px;
+    background-color: rgb(197, 201, 4);
+    width: 15rem;
 }
+
+
+
+
 
 /* CSS CONTACT */
 
-.h1c{
-    background-color: rgb(0, 0, 0);
-    color: white;
+
+.cajacontact{
+    width: 37.5rem;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+    margin: 2rem auto;
+}
+.pp{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
     position: absolute;
-    height: 25px;
-    top: 10px;
-    left: 10px;
-    top: 30%;
+    top:30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.h2c{
-    background-color: rgb(0, 0, 0);
-    color: white;
+.ppp{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
     position: absolute;
-    height: 25px;
-    top: 10px;
-    left: 10px;
-    top: 20%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    width: 35rem;
 }
-.imacontac{
-    width: 800px;
-    height: 300px;
-    margin: 3px;
-    margin-left: 16rem;
-    padding: 3px;
-    border-radius: 25px;
-    width: 900px;
-    height: 400px;
-    border-radius: 10%;
- 
-}
-.imagecontac{
-    width: 900px;
-    height: 300px;
-    border-radius: 10%;
-}
-
 .pcontact{
-    position: absolute;
-    width: 200px;
-    left: 30%;
-    bottom: 23%;
-    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
-.contactar{
-    width: 300px;
-    height: 50px;
-    position:absolute;
-    left: 60%;
-    bottom: 30%;
+.pppp{
+    width: 20rem;
+    margin-bottom: 1rem;
 }
+.mailt{
+    width: 17rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
 /* css Schedule*/
+
 
 table{
     margin-top: 50px;
@@ -228,6 +195,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
+    margin-bottom: 7.2rem;
 }
 
 td,th{
@@ -247,43 +215,188 @@ td,th{
     text-align: center;
 }
 
+
+
+
+
+
 /* css benefits*/
+
 
 .tipstittle, .tipssubtitle{
     padding: 10px;
     text-align: center;
 }
-.cajati{
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px;
-    float: left;
-    width: 400px;
-    height: 400px;
+.todas-las-cajas{
+    display: flex;
+    justify-content: space-around;
 }
 .pngti{
-    width: 100%;
-    height: auto;
-
-}
-.cajate{
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px;
-    float: left;
-    width: 400px;
-    height: 400px;
+    width: 15rem;
 }
 .pngte{
-    width: 100%;
-    height: auto;
+    width: 15rem;
 }
 .perro{
     padding: 10px;
     margin: 7px;
 }
 .gato{
-    padding-left: 15px;
+
+    padding-left: 1rem;
 }
 .cajate, .cajati{
-    margin-left: 10%;
-
+    width: 15rem;
 }
+
+
+
+
+
+/* css forms and maps */
+
+
+.fm{
+    text-align: center;
+    margin: 2rem;
+}
+.fm1{
+    text-align: center;
+}
+.controlimg{
+    float: left;
+    width: 30rem;
+    margin: 4rem;
+}
+.imgfm1{
+    padding: 1rem;
+    width: 30rem;
+    height: 20rem;
+}
+.imgfm2{
+    padding: 1rem;
+    width: 30rem;
+    height: 20rem;
+}
+.forms1{ background-color: rgb(182, 178, 178);
+    text-align: center;
+    padding: 2rem;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    width: 20rem;    
+}
+.formsmaps{
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+footer{
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px)
+{ 
+    header{
+        background-color: rgb(255, 0, 0);
+        flex-direction: column;
+    }
+
+    .cajitahome{
+        width: 20rem;
+        object-fit: cover;   
+    }
+    .home{
+        font-size: 20px;
+    }
+    .home2{
+        font-size: 17px;
+    }
+    .cajita1{
+        width: 20rem;
+    }
+    #abajo-izquierda{
+        width: 15rem;
+        height: 10rem;
+        font-size: 19px;
+    }
+    .cajacontact{
+        width: 20rem;
+    }
+    .pp{
+        font-size: 40px;
+    }
+    .ppp{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .pppp{
+        height: auto;
+        width: auto;
+        font-size: 15px;
+    }
+    .mailt{
+        height: auto;
+        width: auto;
+    }
+    .todas-las-cajas{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .controlimg{
+        padding: 10px;
+        margin: 0rem;
+        width:0;
+    }
+    .imgfm1{
+        width: 20rem;
+    } 
+    .imgfm2{
+        width: 20rem;
+    }
+    .maps{
+        width: 25rem;
+        padding-left: 2px;
+
+    }
+    .forms1{
+        width: 20rem;
+        margin: 2rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    table{
+        margin-top: px;
+        caption-side: bottom;
+
+        border-collapse: collapse;
+        margin-bottom: 2rem;
+    }
+    
+    td,th{
+        border: 2px solid black;
+        padding-left: 4px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023px)
+{
+    header{
+        background-color: rgb(250, 250, 89);
+    }
+}
+
+
